@@ -15,7 +15,7 @@
 #
 # Copyright (C) 2023 LSPosed Contributors
 #
-
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 $Host.UI.RawUI.WindowTitle = "Installing MagiskOnWSA...."
 function Test-Administrator {
     [OutputType([bool])]
